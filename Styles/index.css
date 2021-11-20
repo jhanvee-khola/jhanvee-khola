@@ -1,0 +1,36 @@
+.navbar-brand{
+    font-family: 'Bestermind', sans-serif;
+}
+.logo{
+    font-family: 'Bestermind', sans-serif;
+    font-weight: bold;
+}
+.dp{
+    border-radius: 100%;
+    max-width: 100%;
+}
+.heading{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 60px;
+}
+.content{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+    color: rgb(70, 69, 69);
+}
+.container{
+    padding-top: 40px;
+}
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.card{
+    margin: 20px;
+}
+.tile{
+    margin: 20px 10px;
+}
+.illustration{
+    max-width: 100%;
+}

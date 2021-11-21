@@ -1,12 +1,13 @@
-.navbar-brand{
-    font-family: 'Bestermind', sans-serif;
+@font-face{
+    font-family:"BestermindRegular";
+    src:url(../Styles/BestermindRegular.ttf);
+    src:url(../Styles/BestermindRegular.ttf) format("embedded-opentype"),url(../Styles/BestermindRegular.ttf) format("truetype"),
 }
 .logo{
-    font-family: 'Bestermind', sans-serif;
+    font-family: 'BestermindRegular', 'Mr De Haviland', cursive;
     font-weight: bold;
 }
 .dp{
-    /* border-radius: 100%; */
     clip-path: circle(40.6% at 52% 40%);
     max-width: 100%;
 }

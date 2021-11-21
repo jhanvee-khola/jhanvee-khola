@@ -3,7 +3,7 @@
 
 - 🌱 I’m currently learning **UI/UX Design and Building Cross Platform Mobile Apps with Flutter.**
 
-- 👨‍💻 Check out my portfolio website at **[https://jhanvee-khola.github.io/jhanvee-khola/](https://jhanvee-khola.github.io/jhanvee-khola/)**
+- 👨‍💻 Check out my portfolio website at 
 
 - 📫 Reach me at **jhanveekhola@gmail.com**
 

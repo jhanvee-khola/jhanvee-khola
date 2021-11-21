@@ -1,7 +1,7 @@
 @font-face{
     font-family:"BestermindRegular";
-    src:url(/BestermindRegular.ttf);
-    src:url(/BestermindRegular.ttf) format("embedded-opentype"),url(/BestermindRegular.ttf) format("truetype"),
+    src:url(../../Styles/BestermindRegular.ttf);
+    src:url(../..Styles/BestermindRegular.ttf) format("embedded-opentype"),url(../../Styles/BestermindRegular.ttf) format("truetype"),
 }
 .logo{
     font-family: 'BestermindRegular', 'Mr De Haviland', cursive;

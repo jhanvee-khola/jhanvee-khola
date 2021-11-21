@@ -1,5 +1,10 @@
+@font-face{
+    font-family:"BestermindRegular";
+    src:url(/BestermindRegular.ttf);
+    src:url(/BestermindRegular.ttf) format("embedded-opentype"),url(/BestermindRegular.ttf) format("truetype"),
+}
 .logo{
-    font-family: 'Mr De Haviland', cursive;
+    font-family: 'BestermindRegular', 'Mr De Haviland', cursive;
     font-weight: bold;
 }
 .dp{

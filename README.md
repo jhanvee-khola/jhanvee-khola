@@ -1,9 +1,9 @@
-<h1 align="center">Hey All👋, I am Jhanvee Khola</h1>
+<h1 align="center">Hey All <img src="https://c.tenor.com/nebZyl8oN7IAAAAi/wave-hello.gif" width="40" height="40">, I am Jhanvee Khola</h1>
 <h3 align="center">A student, Full-Stack Web Developer and Machine Learning Enthusiast from India</h3>
 
 - 🌱 I’m currently learning **UI/UX Design and Building Cross Platform Mobile Apps with Flutter.**
 
-- 👨‍💻 Check out my portfolio website at [https://jhanvee-khola.github.io/jhanvee-khola/](https://jhanvee-khola.github.io/jhanvee-khola/)
+- 👨‍💻 Check out my portfolio website at **[https://jhanvee-khola.github.io/jhanvee-khola/](https://jhanvee-khola.github.io/jhanvee-khola/)**
 
 - 📫 Reach me at **jhanveekhola@gmail.com**
 

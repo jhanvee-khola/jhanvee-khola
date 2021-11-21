@@ -1,13 +1,11 @@
-<h1 align="center">Hi 👋, I'm Jhanvee Khola</h1>
+<h1 align="center">Hey All👋, I am Jhanvee Khola</h1>
 <h3 align="center">A student, Full-Stack Web Developer and Machine Learning Enthusiast from India</h3>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=jhanvee-khola" alt="jhanvee-khola" /></a> </p>
 
 - 🌱 I’m currently learning **UI/UX Design and Building Cross Platform Mobile Apps with Flutter.**
 
 - 👨‍💻 Check out my portfolio website at [https://jhanvee-khola.github.io/jhanvee-khola/](https://jhanvee-khola.github.io/jhanvee-khola/)
 
-- 📫 How to reach me **jhanveekhola@gmail.com**
+- 📫 Reach me at **jhanveekhola@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">

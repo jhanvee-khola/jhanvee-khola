@@ -1,6 +1,6 @@
 @font-face {
   font-family: "bestermind";
-  src: url('BestermindRegular.ttf') format('truetype');
+  src: url('/BestermindRegular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

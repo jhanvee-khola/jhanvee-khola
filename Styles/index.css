@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "bestermind";
+  src: url('Styles/BestermindRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 .logo{
     font-family: 'bestermind', sans-serif;
     font-weight: bold;

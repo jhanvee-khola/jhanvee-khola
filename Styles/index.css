@@ -3,6 +3,9 @@
     src:url(../Styles/BestermindRegular.ttf);
     src:url(../Styles/BestermindRegular.ttf) format("embedded-opentype"),url(../Styles/BestermindRegular.ttf) format("truetype"),
 }
+html {
+    scroll-behavior: smooth;
+}
 .logo{
     font-family: 'BestermindRegular', 'Mr De Haviland', cursive;
     font-weight: bold;
@@ -20,6 +23,7 @@
     padding-top: 10px;
     color: rgb(70, 69, 69);
 }
+
 .container{
     padding-top: 40px;
 }
@@ -35,4 +39,48 @@
 }
 .illustration{
     max-width: 100%;
+}
+a{
+    color: rgb(70, 69, 69);
+    text-decoration: underline rgb(70, 69, 69) solid;
+}
+a:hover{
+    color: #BF9674;
+    text-decoration: underline #BF9674 solid;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+.projects{
+    text-align: right;
+    padding-top: 20px;
+    margin-right: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+}
+.to-top {
+    background: white;
+    position: fixed;
+    bottom: 16px;
+    right:20px;
+    width:50px;
+    height:50px;
+    opacity:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:32px;
+    pointer-events: none;
+    transition: all .4s;
+  }
+  
+.to-top.active {
+    bottom:32px;
+    pointer-events: auto;
+    opacity:1;
+}
+.navbar{
+    justify-content: right;
+}
+ul{
+    list-style: none;
 }

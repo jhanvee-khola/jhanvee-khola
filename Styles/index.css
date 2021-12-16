@@ -3,6 +3,11 @@
     src:url(../Styles/BestermindRegular.ttf);
     src:url(../Styles/BestermindRegular.ttf) format("embedded-opentype"),url(../Styles/BestermindRegular.ttf) format("truetype"),
 }
+@media (max-width: 569px){
+    *{
+        text-align: center;
+    }
+}
 html {
     scroll-behavior: smooth;
 }
@@ -11,8 +16,9 @@ html {
     font-weight: bold;
 }
 .dp{
-    clip-path: circle(40.6% at 52% 40%);
+    border-radius: 50%;
     max-width: 100%;
+    margin-bottom: 30px;
 }
 .heading{
     font-family: 'Poppins', sans-serif;

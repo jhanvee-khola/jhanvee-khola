@@ -7,6 +7,9 @@
     *{
         text-align: center;
     }
+    .dp{
+        margin-bottom: 20px;
+    }
 }
 html {
     scroll-behavior: smooth;

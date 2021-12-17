@@ -7,8 +7,9 @@
     *{
         text-align: center;
     }
-    .dp{
-        margin-bottom: 20px;
+    .navbar-brand{
+        margin-right: auto;
+        margin-left: 105px;
     }
 }
 html {
@@ -17,6 +18,7 @@ html {
 .logo{
     font-family: 'BestermindRegular', 'Mr De Haviland', cursive;
     font-weight: bold;
+    margin: 10px 0px 0px 40px;
 }
 .dp{
     border-radius: 50%;
@@ -32,9 +34,17 @@ html {
     padding-top: 10px;
     color: rgb(70, 69, 69);
 }
-
 .container{
     padding-top: 40px;
+}
+.cover-container{
+    padding-top:10px;
+}
+.navbar>.container{
+    padding-top:17px;
+}
+.navbar-brand>.logo{
+    margin-left: 14px;
 }
 .title{
     font-family: 'Poppins', sans-serif;
@@ -49,11 +59,11 @@ html {
 .illustration{
     max-width: 100%;
 }
-a{
+.project-link{
     color: rgb(70, 69, 69);
     text-decoration: underline rgb(70, 69, 69) solid;
 }
-a:hover{
+.project-link:hover{
     color: #BF9674;
     text-decoration: underline #BF9674 solid;
     font-weight: bold;
@@ -92,4 +102,31 @@ a:hover{
 }
 ul{
     list-style: none;
+    margin:0px;
+    padding:0px;
+}
+.navbar-nav{
+    border:black solid 2px;
+    margin-left:auto;
+    padding:10px;
+    box-shadow: 20px 20px 40px rgb(224, 224, 224); 
+}
+.nav-link{
+    text-decoration: none;
+    display: inline;
+    color: rgb(70, 69, 69);
+}
+.navbar-brand:hover,.nav-link:hover{
+    color: #BF9674;
+    font-weight: bold;
+} 
+.navbar-brand{
+    color: #212529;
+}
+.navbar-toggler:focus,.navbar-toggler:active{
+    box-shadow: none;
+    border: #212529 solid 2px;
+}
+.fas:hover{
+    color: #BF9674;
 }

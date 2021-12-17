@@ -32,3 +32,13 @@
     font-family: 'Comforter Brush', cursive;
     font-weight: bold;
 }
+a{
+    color: rgb(70, 69, 69);
+    text-decoration: underline rgb(70, 69, 69) solid;
+}
+a:hover{
+    color: #BF9674;
+    text-decoration: underline #BF9674 solid;
+    font-weight: bold;
+    transform: scale(1.1);
+}

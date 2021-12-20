@@ -45,5 +45,5 @@
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=jhanvee-khola&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=jhanvee-khola&layout=compact&langs_count=8&theme=algolia"/>
 </a>
-  ![snake gif](https://github.com/jhanvee-khola/jhanvee-khola/blob/output/github-contribution-grid-snake.gif?raw=true)
+  <img src="https://github.com/jhanvee-khola/jhanvee-khola/blob/output/github-contribution-grid-snake.gif?raw=true">
 </p>

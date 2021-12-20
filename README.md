@@ -9,7 +9,7 @@
 
 - 📫 Reach me at **jhanveekhola@gmail.com**
 
-<img alt="Night Coding" src="https://media4.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif?cid=790b761148e11cd726b60f22acfc0376ad0a6efe2979bffc&rid=giphy.gif&ct=g" align="right"/>
+<img alt="Night Coding" src="https://media4.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif?cid=790b761148e11cd726b60f22acfc0376ad0a6efe2979bffc&rid=giphy.gif&ct=g" align="right" width="450" height="250"/>
 
 <h3 align="left">🛠 Languages and Tools</h3>
 

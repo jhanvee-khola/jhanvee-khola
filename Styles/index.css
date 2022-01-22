@@ -130,3 +130,7 @@ ul{
 .fas:hover{
     color: #BF9674;
 }
+.btn-social-icon:hover{
+    color: #BF9674;
+    transform: scale(1.2);
+}

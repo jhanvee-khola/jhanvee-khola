@@ -70,10 +70,25 @@ html {
 }
 .card{
     background-color: #bf967409;
-    margin: 21px;
+    margin: 20px;
 }
 .card:hover{
     background-color: #bf967417;
+}
+.card:hover img{
+    transform: scale(1.5);
+}
+.frame{
+    height: 200px;
+    overflow: hidden;
+}
+.frame img{
+    height: 200px;
+    width: 100%;
+    transition: all 1s ease;
+}
+.frame img:hover{
+    transform: scale(1.5);
 }
 .card-title{
     font-family: 'Poppins', sans-serif;

@@ -42,3 +42,12 @@ a:hover{
     font-weight: bold;
     transform: scale(1.1);
 }
+.card{
+    background-color: #bf967409;
+}
+.card:hover{
+    background-color: #bf967417;
+}
+.card-title{
+    font-family: 'Poppins', sans-serif;
+}

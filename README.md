@@ -5,7 +5,7 @@
 
 - 🌱 I'm practising to improve my **Data Structures and Algorithms and Problem Solving Skills.**
 
-- 👨‍💻 Check out my portfolio website at **[https://jhanvee-khola.github.io/jhanvee-khola/](https://jhanvee-khola.github.io/jhanvee-khola/)** 
+- 👨‍💻 Check out my portfolio website at **[https://jhanvee-khola.netlify.app/](https://jhanvee-khola.github.io/jhanvee-khola/)** 
 
 - 📫 Reach me at **jhanveekhola@gmail.com**
 

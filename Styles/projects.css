@@ -6,7 +6,6 @@
 .title{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    margin-top: 40px;
 }
 .myDiv {
     position: relative;
@@ -15,8 +14,7 @@
     background:white;
     color:black;
     padding-bottom:4px;
-  }
-  
+}
 .myDiv:after {
     content: '';
     position: absolute;
@@ -65,4 +63,31 @@ a:hover{
 }
 .frame img:hover{
     transform: scale(1.5);
+}
+.to-top {
+    background: white;
+    position: fixed;
+    bottom: 16px;
+    right:20px;
+    width:50px;
+    height:50px;
+    opacity:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:32px;
+    pointer-events: none;
+    transition: all .4s;
+    border-radius: 50%;
+  } 
+.to-top.active {
+    bottom:32px;
+    pointer-events: auto;
+    opacity:1;
+}
+.home{
+    font-size:xx-large;
+}
+.home-container{
+    padding-top: 15px;
 }

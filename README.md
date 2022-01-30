@@ -5,7 +5,7 @@
 
 - 💻 I’m also learning **UI/UX Design and Building Cross Platform Mobile Apps with Flutter.**
 
-- 👨‍💻 Check out my portfolio website at **[https://jhanvee-khola.netlify.app/](https://jhanvee-khola.github.io/jhanvee-khola/)** 
+- 👨‍💻 Check out my portfolio website at **[https://jhanvee-khola.netlify.app/](https://jhanvee-khola.netlify.app/)** 
 
 - 📫 Reach me at **jhanveekhola@gmail.com**
 

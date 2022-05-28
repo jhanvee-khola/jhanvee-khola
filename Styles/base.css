@@ -1,0 +1,202 @@
+@font-face{
+    font-family:"BestermindRegular";
+    src:url(../Styles/BestermindRegular.ttf);
+    src:url(../Styles/BestermindRegular.ttf) format("embedded-opentype"),url(../Styles/BestermindRegular.ttf) format("truetype"),
+}
+@media (max-width: 569px){
+    *{
+        text-align: center;
+    }
+    .skill{
+        text-align: left;
+    }
+    .navbar-brand{
+        margin-right: auto;
+        margin-left: 105px;
+    }
+}
+@media (min-width: 770px){
+    .nav-right{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
+/* NAVBAR */
+.navbar>.container{
+    padding-top:17px;
+}
+.navbar-brand>.logo{
+    margin-left: 14px;
+}
+.logo{
+    font-family: 'BestermindRegular', 'Mr De Haviland', cursive;
+    font-weight: bold;
+    margin: 10px 0px 0px 40px;
+}
+.navbar-nav{
+    padding:10px;
+    margin-left: auto;
+}
+ul{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand:hover,.nav-link:hover{
+    font-weight: bold;
+} 
+.navbar-toggler:focus,.navbar-toggler:active{
+    box-shadow: none;
+}
+.dropdown-toggle::after{
+    content: none;
+}
+.dropdown-toggle{
+    padding: 0px;
+    margin: 1em;
+}
+.dropdown-menu{
+    min-width:fit-content;
+    border-radius: 3%;
+    background-color: rgba(255, 255, 255, 0.272);
+}
+.dropdown-toggle:focus,.dropdown-toggle:active{
+    box-shadow: none;
+    border-radius: 50%;
+}
+.theme-dot{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: #212529 solid 2px;
+}
+#light-mode{
+    background-color: #fff;
+}
+#dark-mode{
+    background-color: #414345;
+}
+#lemon-mode{
+    background-color: #fceabb;
+}
+#pink-mode{
+    background-color: #FBD3E9;
+}
+#blue-mode{
+    background-color: #DBE6F6;
+}
+
+/* HEADER */
+.dp{
+    border-radius: 50%;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+.heading{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 60px;
+}
+.container{
+    padding-top: 40px;
+}
+.cover-container{
+    padding-top:10px;
+}
+.btn-social-icon:hover{
+    transform: scale(1.2);
+}
+.content{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+}
+
+/* SECTION */
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.card{
+    margin: 20px;
+}
+.card-title{
+    font-family: 'Poppins', sans-serif;
+}
+.card-header{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* SKILL */
+.tile{
+    margin: 20px 5px;
+}
+.skill{
+    padding: 0;
+}
+.skill:hover>.tooltiptext {
+    visibility: visible;
+}
+.illustration{
+    max-width: 100%;
+}
+.skill>.tooltiptext {
+    visibility: hidden;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+/* PROJECT */
+.card:hover img{
+    transform: scale(1.5);
+}
+.frame{
+    height: 200px;
+    overflow: hidden;
+}
+.frame img{
+    height: 200px;
+    width: 100%;
+    transition: all 1s ease;
+}
+.frame img:hover{
+    transform: scale(1.5);
+}
+.projects{
+    text-align: right;
+    padding-top: 20px;
+    margin-right: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+}
+.project-link:hover{
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+/* BACK-TO-TOP */
+.to-top {
+    position: fixed;
+    bottom: 16px;
+    right:20px;
+    width:50px;
+    height:50px;
+    opacity:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:32px;
+    pointer-events: none;
+    transition: all .4s;
+    border-radius: 50%;
+} 
+.to-top.active {
+    bottom:32px;
+    pointer-events: auto;
+    opacity:1;
+}

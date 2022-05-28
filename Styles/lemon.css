@@ -1,0 +1,92 @@
+body{
+    background-color: #fceabb;
+}
+
+/* NAVBAR */
+.navbar-nav{
+    border:black solid 2px;
+    box-shadow: 20px 20px 40px #c7ba9c; 
+}
+.nav-link{
+    color: rgb(70, 69, 69);
+}
+.navbar-brand:hover,.nav-link:hover{
+    color: #BF9674;
+} 
+.navbar-brand{
+    color: #212529;
+}
+.navbar-toggler:focus,.navbar-toggler:active{
+    border: #212529 solid 2px;
+}
+.dropdown-toggle:focus,.dropdown-toggle:active{
+    border: #212529 solid 2px;
+}
+.fas{
+    color: black;
+}
+.fas:hover{
+    color: #BF9674;
+}
+
+/* HEADER */
+.heading{
+    color: #212529;
+}
+.content{
+    color: rgb(70, 69, 69);
+}
+.btn-social-icon{
+    color: rgb(70, 69, 69);
+}
+.btn-social-icon:hover{
+    color: #BF9674;
+}
+
+/* SECTION */
+.title{
+    color: #212529;
+}
+.card{
+    border: solid #212529 1px;
+}
+.card{
+    background-color: #bf967409;
+}
+.card:hover{
+    background-color: #bf967417;
+}
+.card-header{
+    color: #212529;
+}
+.card-title{
+    color: #212529;
+}
+.card-text{
+    color: rgb(70, 69, 69);
+}
+
+/* SKILL */
+.skill>.tooltiptext {
+    color: rgb(70, 69, 69);
+}
+
+/* PROJECT */
+.project-link{
+    color: rgb(70, 69, 69);
+    text-decoration: underline rgb(70, 69, 69) solid;
+}
+.project-link:hover{
+    color: #BF9674;
+    text-decoration: underline #BF9674 solid;
+}
+
+/* BACK-TO-TOP */
+.to-top {
+    background: white;
+} 
+
+/* FOOTER */
+.last-text{
+    color: #212529;
+}

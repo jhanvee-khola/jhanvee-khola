@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Styles/index.css">
+    <link rel="stylesheet" href="Styles/base.css">
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
     <script src="https://kit.fontawesome.com/22992e095e.js" crossorigin="anonymous"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
@@ -24,14 +25,28 @@
                 <i class="fas fa-bars"></i>
             </button>  
            <a class="navbar-brand" href="#"><h1 class="logo">Jhanvee Khola</h1></a>
-           <div class="collapse navbar-collapse" id="Navbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link"href="#experience">Experience</a></li>
-                </ul>   
-            </div>         
+            <div class="nav-right">
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                        <li class="nav-item"><a class="nav-link"href="#experience">Experience</a></li>
+                    </ul>   
+                </div>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="https://img.icons8.com/ios-glyphs/40/000000/contrast.png"/>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li class="dropdown-item"><div data-mode="light" id="light-mode" class="theme-dot"></div></li><!-- #ffff -->
+                        <li class="dropdown-item"><div data-mode="dark" id="dark-mode" class="theme-dot"></div></li><!-- #414345 -->
+                        <li class="dropdown-item"><div data-mode="lemon" id="lemon-mode" class="theme-dot"></div></li><!-- #fceabb -->
+                        <li class="dropdown-item"><div data-mode="pink" id="pink-mode" class="theme-dot"></div></li><!-- #FBD3E9 -->
+                        <li class="dropdown-item"><div data-mode="blue" id="blue-mode" class="theme-dot"></div></li><!-- #DBE6F6 -->
+                    </ul>
+                </div>
+            </div>
         </div>
     </nav>
     <div class="container cover-container"> 
@@ -50,27 +65,27 @@
                 </div>
             </div>
         </div>
-        <hr>
+        <hr class="ruler">
     </div>
     <div class="container" id="education">
         <h1 class="title">◼ Education</h1>
         <div class="row">
             <div class="col col-sm-6">
-                <div class="card border-dark">
+                <div class="card">
                     <div class="card-header">2020-2024</div>
                     <div class="card-body">
                       <h5 class="card-title">B.Tech., Computer Science Engineering and Artificial Intelligence</h5>
                       <p class="card-text">Indira Gandhi Delhi Technical University for Women</p>
                     </div>
                 </div>
-                <div class="card border-dark">
+                <div class="card">
                     <div class="card-header">2018-2020</div>
                     <div class="card-body">
                       <h5 class="card-title">Senior Secondary Education</h5>
                       <p class="card-text">Sant Hari Dass Sr. Sec. Public School</p>
                     </div>
                 </div>
-                <div class="card border-dark">
+                <div class="card">
                     <div class="card-header">2013-2018</div>
                     <div class="card-body">
                       <h5 class="card-title">Secondary Education</h5>
@@ -155,7 +170,7 @@
     <div class="container" id="projects">
         <h1 class="title">◼ Projects</h1><br><br>
         <div class="card-group">
-            <div class="card border-dark">
+            <div class="card">
                 <div class="frame">
                     <img src="Images/img1.png" class="card-img-top" alt="...">
                 </div>
@@ -165,7 +180,7 @@
                 <p class="card-text"><small><a class="project-link" href="https://github.com/jhanvee-khola/DiseasePrediction">View Here</a></small></p>
               </div>
             </div>
-            <div class="card border-dark">
+            <div class="card">
                 <div class="frame">
                     <img src="https://images.unsplash.com/photo-1604594849809-dfedbc827105?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" class="card-img-top" alt="...">
                 </div>
@@ -175,10 +190,10 @@
                 <p class="card-text"><small><a class="project-link" href="https://github.com/jhanvee-khola/BankManagementSystem/blob/main/README.md">View here</a></small></p>
               </div>
             </div>
-            <div class="card border-dark">
+            <div class="card">
                 <div class="frame">
-              <img src="Images/tech.jpg" class="card-img-top" alt="...">
-            </div>
+                    <img src="Images/tech.jpg" class="card-img-top" alt="...">
+                </div>
               <div class="card-body">
                 <h5 class="card-title">Tech Blogs Application</h5>
                 <p class="card-text">Cross-Platform blogs Application made with Flutter for getting latest technology field news and updates about scholarship, internship and other opportunities in the field for students.</p>
@@ -198,28 +213,28 @@
                 <img src="Images/ID card.svg" class="illustration">
             </div>
             <div class="col col-sm-6">
-                <div class="card border-dark">
+                <div class="card">
                     <div class="card-header">Apr 2022 - Present</div>
                     <div class="card-body">
                       <h5 class="card-title">Technical Head</h5>
                       <p class="card-text">AI Club, IGDTUW</p>
                     </div>
                 </div>
-                <div class="card border-dark">
-                    <div class="card-header">Sept 2021 - Present</div>
+                <div class="card">
+                    <div class="card-header">Sept 2021 - Apr 2022</div>
                     <div class="card-body">
                       <h5 class="card-title">Mentor, Web Development</h5>
                       <p class="card-text">Lean In, IGDTUW</p>
                     </div>
                 </div>
-                <div class="card border-dark">
+                <div class="card">
                     <div class="card-header">Dec 2021 - Mar 2022</div>
                     <div class="card-body">
                       <h5 class="card-title">Mentor, Web Development</h5>
                       <p class="card-text">UAceIt, Winter of Mentorship 2.0</p>
                     </div>
                 </div>
-                <div class="card border-dark">
+                <div class="card">
                     <div class="card-header">Sept 2021 - Dec 2021</div>
                     <div class="card-body">
                       <h5 class="card-title">Open Source Contributor</h5>
@@ -230,6 +245,9 @@
         </div>
         <hr>
     </div>
+    <!-- <div class="container" id="experience">
+        <h1 class="title">◼ Achievements</h1>
+    </div> -->
     <div style="text-align: center;">
         <h5 class="last-text"><img src="https://img.icons8.com/material-rounded/24/000000/source-code.png"/> with ❤ by Jhanvee Khola</h5>
     </div>

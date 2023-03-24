@@ -179,6 +179,20 @@ ul{
     transform: scale(1.1);
 }
 
+/* ACHIEVEMENTS */
+.frame-ac{
+    height: 150px;
+    overflow: hidden;
+}
+.frame-ac img{
+    height: 150px;
+    width: 100%;
+    transition: all 1s ease;
+}
+.frame-ac img:hover{
+    transform: scale(1.5);
+}
+
 /* BACK-TO-TOP */
 .to-top {
     position: fixed;
